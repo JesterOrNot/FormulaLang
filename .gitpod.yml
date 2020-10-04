@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+vscode:
+  extensions:
+    - mike-lischke.vscode-antlr4@2.2.4:f3CjrEC5Dyu8UJl8iyRF4g==
